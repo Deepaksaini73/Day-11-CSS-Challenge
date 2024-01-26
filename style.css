@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(independence.jpg);
+  background-color: rgb(182, 170, 170);
+}
+.parrent{
+    position: absolute;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
+    background-color: #770002;
+    border-radius: 50%;
+}
+.saffron{
+    margin-top: 30px;
+    background-color: rgb(255, 153, 51);
+    height: 46px;
+    border-radius: 22px;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    height:46px;
+    border-radius: 22px;
+}
+.green{
+    background-color: rgb(19, 136, 8);
+    height: 46px;
+    border-radius: 22px;
+}
+.chakra{
+    height: 43px;
+    width: 43px;
+    border: 1px solid darkblue;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.chakra span{
+    position: absolute;
+    left: 50%;
+    background-color:darkblue;
+    height: 100%;
+    width: 1px;
+
+}
+.chakra span:nth-child(1){
+    transform: rotate(15deg);
+}
+.chakra span:nth-child(2){
+    transform: rotate(30deg);
+}
+.chakra span:nth-child(3){
+    transform: rotate(45deg);
+}
+.chakra span:nth-child(4){
+    transform: rotate(60deg);
+}
+.chakra span:nth-child(5){
+    transform: rotate(75deg);
+}
+.chakra span:nth-child(6){
+    transform: rotate(90deg);
+}
+.chakra span:nth-child(7){
+    transform: rotate(105deg);
+}
+.chakra span:nth-child(8){
+    transform: rotate(120deg);
+}
+.chakra span:nth-child(9){
+    transform: rotate(135deg);
+}
+.chakra span:nth-child(10){
+    transform: rotate(150deg);
+}
+.chakra span:nth-child(11){
+    transform: rotate(165deg);
+}
+.chakra span:nth-child(12){
+    transform: rotate(180deg);
+}
